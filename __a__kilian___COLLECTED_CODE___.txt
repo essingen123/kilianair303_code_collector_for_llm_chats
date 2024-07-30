@@ -1,0 +1,426 @@
+# This is a collection of all the files that should be relevant for the project...
+
+# __SHOULD_HAVE_NO_HASH_AND_BE_INCLUDEDt.py
+
+
+# __a__kilian___INCLUDE_OR_HASH_FILE_LIST.txt
+
+# .
+# ./.git
+# .git
+# ./.git/refs
+# refs
+# ./.git/refs/remotes
+# remotes
+# ./.git/refs/remotes/origin
+# origin
+# ./.git/refs/remotes/origin/master
+# master
+# ./.git/refs/heads
+# heads
+# ./.git/refs/heads/master
+# master
+# ./.git/refs/tags
+# tags
+# ./.git/config
+# config
+# ./.git/branches
+# branches
+# ./.git/description
+# description
+# ./.git/info
+# info
+# ./.git/info/exclude
+# exclude
+# ./.git/hooks
+# hooks
+# ./.git/hooks/pre-applypatch.sample
+# pre-applypatch.sample
+# ./.git/hooks/push-to-checkout.sample
+# push-to-checkout.sample
+# ./.git/hooks/pre-commit.sample
+# pre-commit.sample
+# ./.git/hooks/pre-push.sample
+# pre-push.sample
+# ./.git/hooks/commit-msg.sample
+# commit-msg.sample
+# ./.git/hooks/pre-rebase.sample
+# pre-rebase.sample
+# ./.git/hooks/pre-receive.sample
+# pre-receive.sample
+# ./.git/hooks/applypatch-msg.sample
+# applypatch-msg.sample
+# ./.git/hooks/post-update.sample
+# post-update.sample
+# ./.git/hooks/prepare-commit-msg.sample
+# prepare-commit-msg.sample
+# ./.git/hooks/update.sample
+# update.sample
+# ./.git/hooks/fsmonitor-watchman.sample
+# fsmonitor-watchman.sample
+# ./.git/hooks/pre-merge-commit.sample
+# pre-merge-commit.sample
+# ./.git/HEAD
+# HEAD
+# ./.git/logs
+# logs
+# ./.git/logs/refs
+# refs
+# ./.git/logs/refs/remotes
+# remotes
+# ./.git/logs/refs/remotes/origin
+# origin
+# ./.git/logs/refs/remotes/origin/master
+# master
+# ./.git/logs/refs/heads
+# heads
+# ./.git/logs/refs/heads/master
+# master
+# ./.git/logs/HEAD
+# HEAD
+# ./.git/objects
+# objects
+# ./.git/objects/b6
+# b6
+# ./.git/objects/b6/460548686ac9c8e38fbc4b6324eb53f2606949
+# 460548686ac9c8e38fbc4b6324eb53f2606949
+# ./.git/objects/85
+# 85
+# ./.git/objects/85/30a6b46b1aa4e04c809143e8f34a9b4c3d9c69
+# 30a6b46b1aa4e04c809143e8f34a9b4c3d9c69
+# ./.git/objects/40
+# 40
+# ./.git/objects/40/0780c1725f1d87b6eb41701b1c701f705e812a
+# 0780c1725f1d87b6eb41701b1c701f705e812a
+# ./.git/objects/c2
+# c2
+# ./.git/objects/c2/477b52b607a1cbf8a3ac3eb1ca24a0b338781f
+# 477b52b607a1cbf8a3ac3eb1ca24a0b338781f
+# ./.git/objects/27
+# 27
+# ./.git/objects/27/b965e2fd8d197f9d4a3daf1dfffa0070718429
+# b965e2fd8d197f9d4a3daf1dfffa0070718429
+# ./.git/objects/2b
+# 2b
+# ./.git/objects/2b/8ad1409aac5bbbe903258f3160919c849f4c5c
+# 8ad1409aac5bbbe903258f3160919c849f4c5c
+# ./.git/objects/70
+# 70
+# ./.git/objects/70/bb4ce77aa0c73144c1470ce431914d5b9016d1
+# bb4ce77aa0c73144c1470ce431914d5b9016d1
+# ./.git/objects/f4
+# f4
+# ./.git/objects/f4/907b0a25413347eca2cbf58f90d0c3ac489c69
+# 907b0a25413347eca2cbf58f90d0c3ac489c69
+# ./.git/objects/info
+# info
+# ./.git/objects/99
+# 99
+# ./.git/objects/99/bce6c7fb347355862257e3dea7979d97406853
+# bce6c7fb347355862257e3dea7979d97406853
+# ./.git/objects/5d
+# 5d
+# ./.git/objects/5d/211ba3cd3d5b90b2a0b54703e947c6240718d5
+# 211ba3cd3d5b90b2a0b54703e947c6240718d5
+# ./.git/objects/c9
+# c9
+# ./.git/objects/c9/bd808388be5779cd4a21bb1a88fb3525487f18
+# bd808388be5779cd4a21bb1a88fb3525487f18
+# ./.git/objects/4a
+# 4a
+# ./.git/objects/4a/b1606e9de121ebc907f9c01c4df39e09c2e2cc
+# b1606e9de121ebc907f9c01c4df39e09c2e2cc
+# ./.git/objects/pack
+# pack
+# ./.git/objects/9d
+# 9d
+# ./.git/objects/9d/80874cba23f7287515742716f7366e48626997
+# 80874cba23f7287515742716f7366e48626997
+# ./.git/objects/df
+# df
+# ./.git/objects/df/d99f9591c709f1553401fa1cb6c11775ef0121
+# d99f9591c709f1553401fa1cb6c11775ef0121
+# ./.git/index
+# index
+# ./.git/COMMIT_EDITMSG
+# COMMIT_EDITMSG
+__SHOULD_HAVE_NO_HASH_AND_BE_INCLUDEDt.py
+__a__kilian___INCLUDE_OR_HASH_FILE_LIST.txt
+# ./.gitignore
+# .gitignore
+kigit.txt
+alias_script.sh
+kilianair303_code_collector_for_llm_chats.sh
+README.md
+# .__HASHED_FILENAME_PLEASE_CAUSE_A_DOT_AND_A_GIF_SHOULD_ALSO_HAVE_A_HASH_IN_THE_LIST_.gif
+__OLD_install_kilianair303_code_collector.sh
+# ./.git/refs/remotes/origin/master
+# master
+# ./.git/refs/heads/master
+# master
+# ./.git/config
+# config
+# ./.git/description
+# description
+# ./.git/info/exclude
+# exclude
+# ./.git/hooks/pre-applypatch.sample
+# pre-applypatch.sample
+# ./.git/hooks/push-to-checkout.sample
+# push-to-checkout.sample
+# ./.git/hooks/pre-commit.sample
+# pre-commit.sample
+# ./.git/hooks/pre-push.sample
+# pre-push.sample
+# ./.git/hooks/commit-msg.sample
+# commit-msg.sample
+# ./.git/hooks/pre-rebase.sample
+# pre-rebase.sample
+# ./.git/hooks/pre-receive.sample
+# pre-receive.sample
+# ./.git/hooks/applypatch-msg.sample
+# applypatch-msg.sample
+# ./.git/hooks/post-update.sample
+# post-update.sample
+# ./.git/hooks/prepare-commit-msg.sample
+# prepare-commit-msg.sample
+# ./.git/hooks/update.sample
+# update.sample
+# ./.git/hooks/fsmonitor-watchman.sample
+# fsmonitor-watchman.sample
+# ./.git/hooks/pre-merge-commit.sample
+# pre-merge-commit.sample
+# ./.git/HEAD
+# HEAD
+# ./.git/logs/refs/remotes/origin/master
+# master
+# ./.git/logs/refs/heads/master
+# master
+# ./.git/logs/HEAD
+# HEAD
+# ./.git/objects/b6/460548686ac9c8e38fbc4b6324eb53f2606949
+# 460548686ac9c8e38fbc4b6324eb53f2606949
+# ./.git/objects/85/30a6b46b1aa4e04c809143e8f34a9b4c3d9c69
+# 30a6b46b1aa4e04c809143e8f34a9b4c3d9c69
+# ./.git/objects/40/0780c1725f1d87b6eb41701b1c701f705e812a
+# 0780c1725f1d87b6eb41701b1c701f705e812a
+# ./.git/objects/c2/477b52b607a1cbf8a3ac3eb1ca24a0b338781f
+# 477b52b607a1cbf8a3ac3eb1ca24a0b338781f
+# ./.git/objects/27/b965e2fd8d197f9d4a3daf1dfffa0070718429
+# b965e2fd8d197f9d4a3daf1dfffa0070718429
+# ./.git/objects/2b/8ad1409aac5bbbe903258f3160919c849f4c5c
+# 8ad1409aac5bbbe903258f3160919c849f4c5c
+# ./.git/objects/70/bb4ce77aa0c73144c1470ce431914d5b9016d1
+# bb4ce77aa0c73144c1470ce431914d5b9016d1
+# ./.git/objects/f4/907b0a25413347eca2cbf58f90d0c3ac489c69
+# 907b0a25413347eca2cbf58f90d0c3ac489c69
+# ./.git/objects/99/bce6c7fb347355862257e3dea7979d97406853
+# bce6c7fb347355862257e3dea7979d97406853
+# ./.git/objects/5d/211ba3cd3d5b90b2a0b54703e947c6240718d5
+# 211ba3cd3d5b90b2a0b54703e947c6240718d5
+# ./.git/objects/c9/bd808388be5779cd4a21bb1a88fb3525487f18
+# bd808388be5779cd4a21bb1a88fb3525487f18
+# ./.git/objects/4a/b1606e9de121ebc907f9c01c4df39e09c2e2cc
+# b1606e9de121ebc907f9c01c4df39e09c2e2cc
+# ./.git/objects/9d/80874cba23f7287515742716f7366e48626997
+# 80874cba23f7287515742716f7366e48626997
+# ./.git/objects/df/d99f9591c709f1553401fa1cb6c11775ef0121
+# d99f9591c709f1553401fa1cb6c11775ef0121
+# ./.git/index
+# index
+# ./.git/COMMIT_EDITMSG
+# COMMIT_EDITMSG
+# ./.gitignore
+# .gitignore
+
+# kigit.txt
+
+#update according to this file
+y
+#git-reponame, leave next line as random and it will be random word otherwise write a github repo name in
+kilianair303_code_collector_for_llm_chats2
+#public git, y for yes n for no, standard no
+y
+#auto generate HTML page, y for yes n for no
+y
+#tags, separated by commas
+Python, Bash Clash, Bash, Automation, Automagic, un-PEP8-perhaps
+#description
+Making x less meh for those that perceives a meh really real, so the purpose of this repo is simply to make a move in the direction of a meh-factor-compensatory-instigator. x=git
+#website URL
+http://example.com
+#GithubPartywebpageLink
+index.html
+
+
+# alias_script.sh
+
+
+# kilianair303_code_collector_for_llm_chats.sh
+
+#!/bin/bash
+###### KEEP WHLIE DEVELOPING #### FROM HERE
+# 1) make file
+# 2) make sure all files listed
+# 3) if file in "exclusion" hash "#" thse from the list
+# 4) ask for a rerun of script after review of file list
+# 5) script makes COLLECTED_CODE file
+rm __a__kilian___COLLECTED_CODE___.txt && rm __a__kilian___INCLUDE_OR_HASH_FILE_LIST.txt;
+###### TO HERE: KEEP WHLIE DEVELOPING ####
+#!/bin/bash
+
+kilianair303_code_collector() {
+  local file_type=$1
+  local files_to_include_file="__a__kilian___INCLUDE_OR_HASH_FILE_LIST.txt"
+  local collected_code_file="__a__kilian___COLLECTED_CODE___.${file_type:-txt}"
+  local ignore_gitignore=${2:-false}
+
+  __create_files_to_include_file() {
+    > "$files_to_include_file"
+    find . -type f -o -type d | while read file; do
+      [[ "$file" == *.git* ]] && echo "# $file" >> "$files_to_include_file" || \
+      [[ -d "$file" || "${file##*/}" == "."* || "${file##*/}" =~ \.(wav|pdf|jpg|gif|mp3|ogg|wmv|API_KEY|PASSWORD)$ ]] && echo "# ${file##*/}" >> "$files_to_include_file" || echo "${file##*/}" >> "$files_to_include_file"
+    done
+  }
+
+  __get_files_list() {
+    case $file_type in
+      python) files_list+=($(find . -type f -name "*.py" -print));;
+      sh) files_list+=($(find . -type f -name "*.sh" -print));;
+      *) files_list+=($(find . -type f -not -name "*.gif" -not -name "*.jpg" -not -name "*.pdf" -not -name "*.wav" -not -name "*.mp3" -not -name "*.ogg" -not -name "*.wmv" -print));;
+    esac
+    find . -type d | while read dir; do
+      case $file_type in
+        python) files_list+=($(find "$dir" -type f -name "*.py" -print));;
+        sh) files_list+=($(find "$dir" -type f -name "*.sh" -print));;
+        *) files_list+=($(find "$dir" -type f -not -name "*.gif" -not -name "*.jpg" -not -name "*.pdf" -not -name "*.wav" -not -name "*.mp3" -not -name "*.ogg" -not -name "*.wmv" -print));;
+      esac
+    done
+    echo "${files_list[@]}"
+  }
+
+  __update_files_to_include_file() {
+    if [ -f "$files_to_include_file" ]; then
+      for file in "${files_list[@]}"; do
+        if ! grep -q "^${file##*/}$" "$files_to_include_file" && ! grep -q "^#${file##*/}$" "$files_to_include_file"; then
+          [[ "$file" == *.git* ]] && echo "# $file" >> "$files_to_include_file" || \
+          [[ -d "$file" || "${file##*/}" == "."* || "${file##*/}" =~ \.(wav|pdf|jpg|gif|mp3|ogg|wmv|API_KEY|PASSWORD)$ ]] && echo "# ${file##*/}" >> "$files_to_include_file" || echo "${file##*/}" >> "$files_to_include_file"
+        fi
+      done
+    else
+      > "$files_to_include_file"
+      for file in "${files_list[@]}"; do
+        [[ "$file" == *.git* ]] && echo "# $file" >> "$files_to_include_file" || \
+        [[ -d "$file" || "${file##*/}" == "."* || "${file##*/}" =~ \.(wav|pdf|jpg|gif|mp3|ogg|wmv|API_KEY|PASSWORD)$ ]] && echo "# ${file##*/}" >> "$files_to_include_file" || echo "${file##*/}" >> "$files_to_include_file"
+      done
+    fi
+  }
+
+  __create_collected_code_file() {
+    rm -f "$collected_code_file"
+    echo "# This is a collection of all the files that should be relevant for the project..." >> "$collected_code_file"
+    grep -v '^#' "$files_to_include_file" | while read file; do
+      echo -e "\n# $(realpath --relative-to=. "$file")\n" >> "$collected_code_file"
+      cat "$file" >> "$collected_code_file"
+    done
+  }
+
+  # __create_alias() {
+  #   if ! alias fox_alias &> /dev/null; then
+  #     wget https://raw.githubusercontent.com/essingen123/bashrc_alias_fox/master/alias_script.sh -O alias_script.sh && chmod +x alias_script.sh && ./alias_script.sh
+  #     if ! alias sc &> /dev/null; then
+  #       fox_alias sc 'kilianair303_code_collector sh'
+  #       fox_alias pc 'kilianair303_code_collector python'
+  #       fox_alias fc2 'kilianair303_code_collector'
+  #     fi
+  #   fi
+  # }
+
+  __create_files_to_include_file
+  local files_list=($(__get_files_list))
+  __update_files_to_include_file
+  echo "File list created. Press Enter to continue..."
+  read -p ""
+  __create_collected_code_file
+  __create_alias
+}
+
+kilianair303_code_collector "$@"
+# README.md
+
+# kilianair303 Code Collector for LLM Chats
+
+This repository contains a code collector script that helps organize and collect code files for the LLM chat project.
+
+## Features
+
+* Collects code files from the current directory and subdirectories
+* Excludes files based on a customizable list
+* Generates a single file with all the collected code
+* Optional: auto-generates an HTML page with the collected code
+
+## Installation
+
+To install the code collector, simply run the `install_kilianair303_code_collector.sh` script in the same directory as this README file.
+
+## Configuration
+
+You can customize the code collector by modifying the `kilianair303_code_collector_for_llm_chats.sh` file.
+
+## License
+
+This repository is licensed under the MIT License.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
+
+## Author
+
+kilianair303
+# __OLD_install_kilianair303_code_collector.sh
+
+#!/bin/bash
+
+
+# Function to check if the script is already installed in .bashrc
+check_installed() {
+    if grep -q "kilianair303_code_collector" ~/.bashrc; then
+        echo "It looks like kilianair303_code_collector is already installed in your .bashrc file."
+        echo "If you want to reinstall, please remove the previous installation first."
+        exit 1
+    fi
+}
+
+# Function to check if .bashrc file exists
+check_bashrc() {
+    if [ ! -f ~/.bashrc ]; then
+        echo "It looks like you don't have a .bashrc file in your home directory."
+        echo "This script will create one for you, but please be aware that this might"
+        echo "overwrite any existing configuration you have."
+        read -p "Are you sure you want to continue? (y/n) " -n 1 -r
+        echo
+        if [ "$REPLY" != "y" ]; then
+            exit 1
+        fi
+    fi
+}
+
+# Function to append the code to the .bashrc file
+append_to_bashrc() {
+    echo "Appending kilianair303_code_collector to your .bashrc file..."
+    cat kilianair303_code_collector_for_llm_chats.sh >> ~/.bashrc
+    echo "Done! Please restart your terminal or run 'source ~/.bashrc' to apply the changes."
+}
+
+# Function to print a warning message
+print_warning() {
+    echo "WARNING: This script will collect all files in your current directory and subdirectories."
+    echo "Please make sure you have reviewed the code and understand what it does before running it."
+}
+
+# Main script execution
+check_installed
+check_bashrc
+append_to_bashrc
+print_warning
