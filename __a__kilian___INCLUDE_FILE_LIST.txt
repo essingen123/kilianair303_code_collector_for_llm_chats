@@ -1,7 +1,0 @@
-__SHOULD_HAVE_NO_HASH_AND_BE_INCLUDEDt.py
-kigit.txt
-alias_script.sh
-kilianair303_code_collector_for_llm_chats.sh
-README.md
-__a__kilian___INCLUDE_FILE_LIST.txt
-__OLD_install_kilianair303_code_collector.sh

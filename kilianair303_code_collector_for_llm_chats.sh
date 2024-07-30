@@ -5,6 +5,7 @@ SKIP_GIT_FOLDER=true
 IGNORE_GITIGNORE=true
 INCLUDE_FILE="__a__kilian___INCLUDE_FILE_LIST.txt"
 COLLECTED_CODE_FILE="__a__kilian___COLLECTED_CODE___${file_type:-txt}"
+
 # Functions
 create_files_to_include_file() {
   [[ ! -f "$INCLUDE_FILE" ]] && {
@@ -33,16 +34,14 @@ get_files_list() {
 }
 
 update_files_to_include_file() {
-  # code to update the include file
-  # for example, you could update the timestamp of the file
   touch "$INCLUDE_FILE"
 }
 
 create_collected_code_file() {
   rm -f "$COLLECTED_CODE_FILE"
-  echo "# This is a collection of all the files that should be relevant for the project..." >> "$COLLECTED_CODE_FILE"
-  grep -v '^#' "$INCLUDE_FILE" | while read file; do
-    echo -e "\n# $(realpath --relative-to=. "$file")\n" >> "$COLLECTED_CODE_FILE"
+  echo "###### This is a collection of content of files that could be relevant: " >> "$COLLECTED_CODE_FILE"
+  grep -v '^#' "$INCLUDE_FILE" | grep -v "$COLLECTED_CODE_FILE" | while read file; do
+    echo -e "\n### FILE_NAME: $(realpath --relative-to=. "$file")\n" >> "$COLLECTED_CODE_FILE"
     cat "$file" >> "$COLLECTED_CODE_FILE"
   done
 }
@@ -51,9 +50,10 @@ create_collected_code_file() {
 #   if ! alias fox_alias &> /dev/null; then
 #     wget https://raw.githubusercontent.com/essingen123/bashrc_alias_fox/master/alias_script.sh -O alias_script.sh && chmod +x alias_script.sh && ./alias_script.sh
 #     if ! alias sc &> /dev/null; then
-#       fox_alias sc 'kilianair303_collector sh'
-#       fox_alias pc 'kilianair303_collector python'
-#       fox_alias fc2 'kilianair303_collector'
+#       fox_alias sc 'kilianair303_collector.sh sh'
+#       fox_alias pc 'kilianair303_collector.sh python'
+#       fox_alias fc2 'kilianair303_collector.sh '
+#       fox_alias f 'kilianair303_collector.sh '
 #     fi
 #   fi
 # }
@@ -70,7 +70,7 @@ kilianair303_collector() {
   else
     update_files_to_include_file
     create_collected_code_file
-    create_alias
+    # create_alias
   fi
 }
 
