@@ -17,10 +17,10 @@ set303c=n
 set303d=y
 
 # 🗑️ tags, separated by commas
-set303e=
+set303e=Bash, Szh, Shell, Automation
 
 # 📝 description
-set303f=
+set303f=This repository contains a code collector script that helps organize and collect code files for the LLM chat project.
 
 # 🌐 website URL
 set303g=
