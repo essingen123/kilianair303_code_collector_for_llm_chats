@@ -11,7 +11,7 @@ set303i=y
 set303b=kilianair303_code_collector_for_llm_chats
 
 # 🔒 public git, y for yes n for no, standard no
-set303c=n
+set303c=public
 
 # 📄 auto generate HTML page, y for yes and n for no
 set303d=y

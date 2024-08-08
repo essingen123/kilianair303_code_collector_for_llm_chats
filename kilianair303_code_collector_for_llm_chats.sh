@@ -11,7 +11,7 @@ create_files_to_include_file() {
   [[ ! -f "$INCLUDE_FILE" ]] && {
     > "$INCLUDE_FILE"
     find . -type f -o -type d | grep -v '/\.git/' | while read file; do
-      [[ $(grep -q "^${file##*/}$" .gitignore) || ${file##*/} == "."* || ${file##*/} =~ \.(wav|pdf|jpg|gif|mp3|ogg|wmv|API_KEY|PASSWORD)$ ]] || echo "${file##*/}" >> "$INCLUDE_FILE"
+      [[ $(grep -q "^${file##*/}$" .gitignore) || ${file##*/} =~ ^# || ${file##*/} == "."* || ${file##*/} =~ \.(wav|pdf|jpg|gif|mp3|ogg|wmv|API_KEY|PASSWORD)$ ]] || echo "$(realpath --relative-to=. "$file")" >> "$INCLUDE_FILE"
     done
   }
 }
@@ -40,23 +40,13 @@ update_files_to_include_file() {
 create_collected_code_file() {
   rm -f "$COLLECTED_CODE_FILE"
   echo "###### This is a collection of content of files that could be relevant: " >> "$COLLECTED_CODE_FILE"
+  echo "Edit this script with 'code $(realpath --relative-to=. "$0")'" >> "$COLLECTED_CODE_FILE"
+  echo "Files collected from: $(find . -type f -name "__a__kilian___code_collector___*")" >> "$COLLECTED_CODE_FILE"
   grep -v '^#' "$INCLUDE_FILE" | grep -v "$COLLECTED_CODE_FILE" | while read file; do
-    echo -e "\n### FILE_NAME: $(realpath --relative-to=. "$file")\n" >> "$COLLECTED_CODE_FILE"
+    echo -e "\n### FILE_NAME: $file\n" >> "$COLLECTED_CODE_FILE"
     cat "$file" >> "$COLLECTED_CODE_FILE"
   done
 }
-
-# create_alias() {
-#   if ! alias fox_alias &> /dev/null; then
-#     wget https://raw.githubusercontent.com/essingen123/bashrc_alias_fox/master/alias_script.sh -O alias_script.sh && chmod +x alias_script.sh && ./alias_script.sh
-#     if ! alias sc &> /dev/null; then
-#       fox_alias sc 'kilianair303_collector.sh sh'
-#       fox_alias pc 'kilianair303_collector.sh python'
-#       fox_alias fc2 'kilianair303_collector.sh '
-#       fox_alias f 'kilianair303_collector.sh '
-#     fi
-#   fi
-# }
 
 kilianair303_collector() {
   local file_type=$1
@@ -64,13 +54,18 @@ kilianair303_collector() {
   if [[ ! -f "$INCLUDE_FILE" ]]; then
     create_files_to_include_file
     update_files_to_include_file
-    echo "File list created. Press Enter to continue..."
+    echo "This is the file: $INCLUDE_FILE"
+    echo "File list created. "
+    echo "Pick the files you wish to include"
+    echo "Run this again after your check please! Press Enter to continue..."
     read -p ""
     exit
   else
     update_files_to_include_file
     create_collected_code_file
-    # create_alias
+    echo "File created: $COLLECTED_CODE_FILE"
+    echo "File size: $(stat -c%s "$COLLECTED_CODE_FILE") bytes"
+    echo "File location: $(realpath --relative-to=. "$COLLECTED_CODE_FILE")"
   fi
 }
 
