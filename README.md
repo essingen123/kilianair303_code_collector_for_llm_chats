@@ -1,6 +1,6 @@
 # kilianair303 Code Collector for LLM Chats
 
-This repository contains a code collector script that helps organize and collect code files for the LLM chat project.
+This repository contains a code collector script that helps organize and collect code files for LLM communication.
 
 ## Features
 
